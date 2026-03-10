@@ -1,0 +1,46 @@
+.landingPage{
+  height:100vh;
+  width:100%;
+
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20230902/pngtree-soy-sauce-from-jiangsu-province-in-southwest-china-image_13155058.jpg");
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.overlay{
+  text-align:center;
+  background:rgba(103, 101, 101, 0.4);
+  padding:50px;
+  border-radius:10px;
+}
+
+.overlay h1{
+  color:white;
+  font-size:45px;
+  margin-bottom:30px;
+}
+
+.loginBtn{
+  padding:12px 30px;
+  font-size:16px;
+  border:none;
+  background:#047490;
+  color:white;
+  transition:0.3s;
+  :hover{
+    background:#22eadd;
+  }
+  border-radius:6px;
+  cursor:pointer;
+  letter-spacing:2px;
+}
+
+.loginBtn:hover{
+  background:#ff4b4b;
+}

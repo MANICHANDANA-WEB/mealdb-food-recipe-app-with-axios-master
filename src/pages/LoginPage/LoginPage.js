@@ -12,13 +12,17 @@ const LoginPage = ({ setIsAuthenticated }) => {
 
     // fake login success
     setIsAuthenticated(true);
-    navigate("/");
+
+    // go to home page after login
+    navigate("/home");
   };
 
   return (
     <div className="auth-container">
       <div className="auth-box">
-        <h2>Login</h2>
+        <h2 style={{ marginBottom: "20px", fontWeight: "600", color: "brown" }}>
+          WELCOME !
+        </h2>
 
         <form onSubmit={handleSubmit}>
           <input
